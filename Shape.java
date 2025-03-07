@@ -12,3 +12,12 @@ abstract class Shape
         this.dim_three = dim_three;
     }
 
+    public void displayShape() 
+    {
+        System.out.println("Selected Shape: " + shapeName);
+    }
+
+    // Abstract methods for area and perimeter
+    public abstract double calculateArea();
+    public abstract double calculatePerimeter();
+}
