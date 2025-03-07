@@ -10,3 +10,8 @@ class EquilateralPyramid extends Shape implements VolumeInterface
         return (dim_one * dim_one) + (2 * dim_one * dim_two);
     }
 
+    public double calculateVolume() 
+    {
+        return (1.0 / 3) * (dim_one * dim_one) * dim_two;
+    }
+}
