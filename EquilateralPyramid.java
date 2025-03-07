@@ -5,3 +5,8 @@ class EquilateralPyramid extends Shape implements VolumeInterface
         super("Equilateral Pyramid", base, height, 0);
     }
 
+    public double calculateArea() 
+    {
+        return (dim_one * dim_one) + (2 * dim_one * dim_two);
+    }
+
