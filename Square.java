@@ -5,3 +5,8 @@ class Square extends Shape
         super("Square", side, side, 0);
     }
 
+    public double calculateArea() 
+    {
+        return dim_one * dim_one;
+    }
+
