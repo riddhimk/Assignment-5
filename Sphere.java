@@ -10,3 +10,8 @@ class Sphere extends Shape implements VolumeInterface
         return 4 * Math.PI * dim_one * dim_one;
     }
 
+    public double calculateVolume() 
+    {
+        return (4.0 / 3) * Math.PI * Math.pow(dim_one, 3);
+    }
+}
